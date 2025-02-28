@@ -22,8 +22,8 @@ class Rectangle {
 }
 
 class Square extends Animal {
-  constructor(side:number,side:number){
-	  super(side);
+  constructor(side:number){
+	  super(side,side);
   }
   area(){
 		let area = this._side*this._side;
